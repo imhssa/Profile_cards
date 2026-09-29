@@ -1,38 +1,27 @@
-# Light & Dark Profile Card
+# Light & Dark Profile
 
-A profile card UI featuring both **light and dark themes**, created with HTML and CSS. The project demonstrates how the same profile design can be presented in two different visual modes.
+A profile card shown in both light and dark themes, built with HTML and CSS.
 
-## ✨ Features
+## Features
 
 - Light theme
 - Dark theme
-- Modern profile-card design
 - Responsive layout
-- Custom image and icon assets
-- Pure HTML and CSS implementation
+- Custom images and icons
 
-## 🛠️ Technologies
+## Built With
 
 - HTML5
 - CSS3
 
-## 📂 Project Structure
+## Files
 
-```
-Light-Dark-Profile/
-├── assets/
-│   ├── 1.png
-│   ├── 2.png
-│   └── icon2.png
-├── index.html
-├── style.css
-└── README.md
-```
+- `index.html`
+- `style.css`
+- `assets/`
 
-## 🚀 Live Demo
+## Live Demo
 
 [View Live Demo](https://imhssa.github.io/Profile_cards/Light-Dark-Profile/)
 
-## 📌 Purpose
-
-This project was created to practice UI design, CSS styling, theme variations, and responsive profile-card layouts.
+The main focus here was creating two visual versions of the same profile design with CSS.
