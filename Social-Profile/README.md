@@ -1,43 +1,27 @@
-# Social Profile Card
+# Social Profile
 
-A social-media-inspired profile card built with **HTML and CSS**. The interface focuses on profile information, social statistics, and visual content in a familiar social-profile layout.
+A social-media-style profile interface made with HTML and CSS.
 
-## ✨ Features
+## Features
 
-- Social profile interface
-- Profile information section
-- Social statistics and content
-- Image-based visual elements
+- Profile information
+- Social statistics
+- Image-based content
 - Responsive layout
-- Pure HTML and CSS
 
-## 🛠️ Technologies
+## Built With
 
 - HTML5
 - CSS3
 
-## 📂 Project Structure
+## Files
 
-```
-Social-Profile/
-├── assets/
-│   ├── 1.png
-│   ├── 2.png
-│   ├── 3.png
-│   ├── 4.png
-│   ├── 5.png
-│   ├── 6.png
-│   ├── 7.png
-│   └── icon3.png
-├── index.html
-├── style.css
-└── README.md
-```
+- `index.html`
+- `style.css`
+- `assets/`
 
-## 🚀 Live Demo
+## Live Demo
 
 [View Live Demo](https://imhssa.github.io/Profile_cards/Social-Profile/)
 
-## 📌 Purpose
-
-This project was created to practice frontend UI development and recreate a social-profile experience using only HTML and CSS.
+I built this one to practice recreating a familiar social-profile layout with CSS.
