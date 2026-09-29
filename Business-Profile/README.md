@@ -1,37 +1,27 @@
-# Business Profile Card
+# Business Profile
 
-A modern business profile card built with **HTML and CSS**. The design focuses on presenting professional information, contact details, and social links in a clean and compact layout.
+A business-style profile card built with HTML and CSS. It includes contact information and social links in a compact layout.
 
-## ✨ Features
+## Features
 
-- Responsive profile card layout
-- Business-focused profile design
-- Social/contact icons
-- Clean and modern UI
-- Organized asset folder
-- Built without JavaScript or external frameworks
+- Responsive layout
+- Contact and social links
+- Profile-focused design
+- Custom icons and images
 
-## 🛠️ Technologies
+## Built With
 
 - HTML5
 - CSS3
 
-## 📂 Project Structure
+## Files
 
-```
-Business-Profile/
-├── assets/
-│   ├── icons1.png
-│   └── icons2.png
-├── index.html
-├── style.css
-└── README.md
-```
+- `index.html` — page structure
+- `style.css` — styles
+- `assets/` — images and icons
 
-## 🚀 Live Demo
+## Live Demo
 
 [View Live Demo](https://imhssa.github.io/Profile_cards/Business-Profile/)
 
-## 📌 Purpose
-
-This project was created as a frontend practice project to improve skills in semantic HTML, CSS layout, styling, and UI design.
+This was made as a frontend practice project.
