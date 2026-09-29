@@ -1,36 +1,27 @@
-# Career Profile Card
+# Career Profile
 
-A professional career profile card designed with **HTML and CSS**. The interface presents a person's professional identity and career-related information in a simple visual format.
+A simple professional profile card made with HTML and CSS.
 
-## ✨ Features
+## Features
 
 - Professional profile layout
-- Clean and minimal interface
-- Responsive structure
-- Custom visual assets
-- No JavaScript or external framework required
+- Responsive design
+- Custom images and icons
+- Clean, simple styling
 
-## 🛠️ Technologies
+## Built With
 
 - HTML5
 - CSS3
 
-## 📂 Project Structure
+## Files
 
-```
-Career-Profile/
-├── assets/
-│   ├── 1.png
-│   └── icon2.png
-├── index.html
-├── style.css
-└── README.md
-```
+- `index.html`
+- `style.css`
+- `assets/`
 
-## 🚀 Live Demo
+## Live Demo
 
 [View Live Demo](https://imhssa.github.io/Profile_cards/Career-Profile/)
 
-## 📌 Purpose
-
-This project was created to practice frontend development and build a reusable professional profile-card interface using pure HTML and CSS.
+The project is mainly focused on layout, spacing, typography, and CSS styling.
