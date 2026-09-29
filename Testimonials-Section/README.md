@@ -1,39 +1,27 @@
 # Testimonials Section
 
-A testimonial section designed with **HTML and CSS** to display customer or user feedback in a clean card-based layout.
+A card-based testimonials section made with HTML and CSS.
 
-## ✨ Features
+## Features
 
-- Card-based testimonial layout
+- Testimonial cards
 - Profile images
-- Clean and modern styling
-- Responsive structure
-- Simple and reusable UI
-- No JavaScript or external framework required
+- Responsive layout
+- Reusable card structure
 
-## 🛠️ Technologies
+## Built With
 
 - HTML5
 - CSS3
 
-## 📂 Project Structure
+## Files
 
-```
-Testimonials-Section/
-├── assets/
-│   ├── 1.png
-│   ├── 2.png
-│   ├── 3.png
-│   └── icon4.png
-├── index.html
-├── style.css
-└── README.md
-```
+- `index.html`
+- `style.css`
+- `assets/`
 
-## 🚀 Live Demo
+## Live Demo
 
 [View Live Demo](https://imhssa.github.io/Profile_cards/Testimonials-Section/)
 
-## 📌 Purpose
-
-This project was created to practice frontend layout, reusable card components, image handling, and responsive UI styling with pure HTML and CSS.
+This project was a small practice exercise for card layouts, spacing, and responsive styling.
