@@ -18,9 +18,3 @@ A small collection of profile-card and UI designs made with HTML and CSS.
 - CSS3
 
 Each project is kept in its own folder and has a separate README.
-
-## About
-
-These projects are part of my frontend practice while studying IT.
-
-**Mahsa Rastgoo** — IT Student / Frontend & UI/UX
