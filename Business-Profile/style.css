@@ -184,7 +184,7 @@ body{
 }
 
 .profile__card:hover{
-    transform: translate(-50%, calc(-50% - 108px));
+    transform: translate(-50%, calc(-50% - 116px));
 }
 
 .profile__card:hover ~ .detail__card{
@@ -222,7 +222,7 @@ body{
     }
 
     .profile__card:hover{
-        transform: translate(-50%, calc(-50% - 82px));
+        transform: translate(-50%, calc(-50% - 90px));
     }
 
     .profile__card:hover ~ .detail__card{
