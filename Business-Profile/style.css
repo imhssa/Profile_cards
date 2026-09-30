@@ -184,11 +184,11 @@ body{
 }
 
 .profile__card:hover{
-    transform: translate(-50%, calc(-50% - 165px));
+    transform: translate(-50%, calc(-50% - 175px));
 }
 
 .profile__card:hover ~ .detail__card{
-    transform: translate(-50%, calc(-50% + 165px));
+    transform: translate(-50%, calc(-50% + 175px));
 }
 
 @media (max-height: 700px){
@@ -222,11 +222,11 @@ body{
     }
 
     .profile__card:hover{
-        transform: translate(-50%, calc(-50% - 140px));
+        transform: translate(-50%, calc(-50% - 150px));
     }
 
     .profile__card:hover ~ .detail__card{
-        transform: translate(-50%, calc(-50% + 140px));
+        transform: translate(-50%, calc(-50% + 150px));
     }
 }
 
