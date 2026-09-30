@@ -13,16 +13,25 @@
     box-sizing: border-box;
 }
 
+html,
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 body{
     font-family: 'Roboto Slab', sans-serif;
-
 }
 
 .container{
+    width: 100%;
     height: 100vh;
+    min-height: 100%;
     background-color: var(--secondary-color);
     position: relative;
     isolation: isolate;
+    overflow: hidden;
 }
 
 .profile__card{
@@ -31,11 +40,13 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1rem;
-    width: 400px;
+    width: min(400px, calc(100vw - 24px));
+    max-height: calc(100vh - 24px);
     border-radius: 1rem;
     background-color: var(--extra-light);
     text-align: center;
-    transition: 0.5s;
+    transition: 0.5s ease;
+    z-index: 2;
 }
 
 .profile__card img{
@@ -54,7 +65,7 @@ body{
     background-color: var(--secondary-color);
 }
 
-.profile__card .name {
+.profile__card .name{
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--primary-color);
@@ -116,11 +127,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1rem;
-    width: 400px;
+    width: min(400px, calc(100vw - 24px));
+    max-height: calc(100vh - 24px);
     border-radius: 1rem;
     background-color: var(--extra-light);
-    transition: 0.5s;
-    z-index: -1;
+    transition: 0.5s ease;
+    z-index: 1;
 }
 
 .detail__header{
@@ -172,9 +184,59 @@ body{
 }
 
 .profile__card:hover{
-    transform: translate(-50%, -77%);
+    transform: translate(-50%, calc(-50% - 150px));
 }
 
 .profile__card:hover ~ .detail__card{
-    transform: translate(-50%,50%);
+    transform: translate(-50%, calc(-50% + 150px));
+}
+
+@media (max-height: 700px){
+    .profile__card{
+        padding: 0.75rem;
+    }
+
+    .profile__card img{
+        width: 80px;
+    }
+
+    .profile__card .tag{
+        margin-bottom: 0.6rem;
+    }
+
+    .profile__card .social__icons{
+        margin: 1rem;
+    }
+
+    .action__btns button{
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    .detail__card{
+        padding: 0.75rem;
+    }
+
+    .detail__header img{
+        width: 65px;
+    }
+
+    .profile__card:hover{
+        transform: translate(-50%, calc(-50% - 125px));
+    }
+
+    .profile__card:hover ~ .detail__card{
+        transform: translate(-50%, calc(-50% + 125px));
+    }
+}
+
+@media (max-width: 420px){
+    .profile__card,
+    .detail__card{
+        width: calc(100vw - 20px);
+    }
+
+    .detail__header{
+        gap: 0.6rem;
+    }
 }
